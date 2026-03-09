@@ -51,8 +51,8 @@ class AccountManagementSystem {
 	}
 	public static void main(String[] args) {
 		
-		AccountManagementSystem acc1=new AccountManagementSystem ("aed12","janani",2000);
-		AccountManagementSystem another=new AccountManagementSystem ("aed12","reshma",3000);
+		AccountManagementSystem acc1=new AccountManagementSystem ("aed14","janani",2000);
+		AccountManagementSystem another=new AccountManagementSystem ("aed39","reshma",3000);
 		
 		acc1.credit(200);
 		another.debit(1000);
